@@ -1,0 +1,10 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+Traceback (most recent call last):
+  File "main.py", line 3, in <module>
+    from agent import agent
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 54
+    if resource_tile.pos.
+                        ^
+SyntaxError: invalid syntax

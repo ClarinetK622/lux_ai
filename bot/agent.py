@@ -4,6 +4,9 @@ from lux.game_map import Cell, RESOURCE_TYPES
 from lux.constants import Constants
 from lux.game_constants import GAME_CONSTANTS
 from lux import annotate
+import logging
+
+logging.basicConfig(filename='../output.log', level=logging.INFO)
 
 DIRECTIONS = Constants.DIRECTIONS
 game_state = None
@@ -46,6 +49,18 @@ def get_closest_city_tile(player, unit):
     else:
         return None
 
+def get_optimal_city_tile(player, city, resource_tiles):
+    for resource_tile in resource_tiles:
+        if resource_tile.pos.x ==0:
+            x = 10
+    return None
+
+def get_resource_tile_map(resource_tiles):
+    clustered = {}
+    for resource_tile in resource_tiles:
+        if resource_tile.pos in clustered:
+            continue
+
 def agent(observation, configuration):
     global game_state
 
@@ -65,6 +80,10 @@ def agent(observation, configuration):
     player = game_state.players[observation.player]
     opponent = game_state.players[(observation.player + 1) % 2]
     width, height = game_state.map.width, game_state.map.height
+
+
+    #
+    logging.info("Hello")
 
     resource_tiles = get_resource_tiles(width, height)
     # we iterate over all our units and do something with them
