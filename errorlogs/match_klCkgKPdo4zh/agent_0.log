@@ -1,9 +1,0 @@
-=== Agent Install Log ===
-=== Agent Compile Log ===
-=== Agent Error Log ===
-Traceback (most recent call last):
-  File "main.py", line 32, in <module>
-    actions = agent(observation, None)
-  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 161, in agent
-    actions.append(annotate.circle(tile1, tile2))
-UnboundLocalError: local variable 'tile1' referenced before assignment

@@ -1,9 +1,0 @@
-=== Agent Install Log ===
-=== Agent Compile Log ===
-=== Agent Error Log ===
-Traceback (most recent call last):
-  File "main.py", line 3, in <module>
-    from agent import agent
-  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 7, in <module>
-    from lux import Position
-ImportError: cannot import name 'Position' from 'lux' (/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/lux/__init__.py)
