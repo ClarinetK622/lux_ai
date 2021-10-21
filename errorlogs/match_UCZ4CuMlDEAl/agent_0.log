@@ -1,0 +1,11 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+Traceback (most recent call last):
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 135, in agent
+    cluster_map = get_resource_tile_map(resource_positions)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 92, in get_resource_tile_map
+    clusters[cluster_id].union(clusters[clustered[nearby]])
+KeyError: 19

@@ -1,0 +1,2265 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 26
+Arguments: (21,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 26
+Arguments: (21,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 26
+Arguments: (21,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 26
+Arguments: (21,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 26
+Arguments: (21,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 26
+Arguments: (21,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 26
+Arguments: (20,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 25
+Arguments: (22,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 25
+Arguments: (21,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 24
+Arguments: (21,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 27
+Arguments: (22,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 25
+Arguments: (20,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 20
+Arguments: (29,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 20
+Arguments: (29,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 19
+Arguments: (30,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 20
+Arguments: (29,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 20
+Arguments: (30,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 19
+Arguments: (29,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 17
+Arguments: (21,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 17
+Arguments: (21,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 18
+Arguments: (21,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 18
+Arguments: (22,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 19
+Arguments: (21,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 17
+Arguments: (21,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 0
+Arguments: (14,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 0
+Arguments: (15,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 28
+Arguments: (30,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 28
+Arguments: (30,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 28
+Arguments: (31,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 29
+Arguments: (30,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 3
+Arguments: (31,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 3
+Arguments: (30,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 3
+Arguments: (31,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 2
+Arguments: (30,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 6
+Arguments: (20,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 6
+Arguments: (20,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 6
+Arguments: (20,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 6
+Arguments: (20,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 6
+Arguments: (20,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 5
+Arguments: (21,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 6
+Arguments: (21,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 7
+Arguments: (20,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 6
+Arguments: (20,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 5
+Arguments: (20,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 7
+Arguments: (21,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 6
+Arguments: (22,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 5
+Arguments: (21,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 5
+Arguments: (21,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 5
+Arguments: (21,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 5
+Arguments: (21,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 5
+Arguments: (21,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 6
+Arguments: (21,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 4
+Arguments: (22,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 5
+Arguments: (20,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 7
+Arguments: (21,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 6
+Arguments: (22,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 28
+Arguments: (23,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 28
+Arguments: (23,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 28
+Arguments: (23,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 27
+Arguments: (22,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 29
+Arguments: (23,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 30
+Arguments: (23,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 7
+Arguments: (21,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 7
+Arguments: (21,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 7
+Arguments: (21,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 18
+Arguments: (21,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 18
+Arguments: (21,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 18
+Arguments: (21,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 18
+Arguments: (22,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 19
+Arguments: (21,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 19
+Arguments: (22,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 31
+Arguments: (14,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 31
+Arguments: (15,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 27
+Arguments: (8,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 27
+Arguments: (8,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 27
+Arguments: (8,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 27
+Arguments: (8,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 29
+Arguments: (10,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 30
+Arguments: (10,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 28
+Arguments: (9,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 29
+Arguments: (9,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 26
+Arguments: (9,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 28
+Arguments: (8,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 29
+Arguments: (8,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 3
+Arguments: (8,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 3
+Arguments: (8,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 3
+Arguments: (8,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 3
+Arguments: (8,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 2
+Arguments: (9,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 3
+Arguments: (9,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 4
+Arguments: (8,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 2
+Arguments: (8,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 12
+Arguments: (29,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 12
+Arguments: (29,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 12
+Arguments: (29,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 11
+Arguments: (29,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 12
+Arguments: (29,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 12
+Arguments: (31,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 11
+Arguments: (30,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 12
+Arguments: (30,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 1
+Arguments: (10,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 1
+Arguments: (10,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 2
+Arguments: (9,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 2
+Arguments: (10,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 1
+Arguments: (10,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 0
+Arguments: (11,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 26
+Arguments: (9,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 24
+Arguments: (21,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 24
+Arguments: (21,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 24
+Arguments: (21,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 26
+Arguments: (20,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 25
+Arguments: (22,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 24
+Arguments: (20,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 25
+Arguments: (21,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 24
+Arguments: (21,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 25
+Arguments: (20,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 13
+Arguments: (21,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 13
+Arguments: (21,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 13
+Arguments: (21,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 12
+Arguments: (22,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 13
+Arguments: (22,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 12
+Arguments: (21,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 13
+Arguments: (21,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 14
+Arguments: (21,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 137, in agent
+    logging.info(position[0],position[1])
+Message: 25
+Arguments: (20,)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 925, in format
+    return fmt.format(record)
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "/home/justin/anaconda3/lib/python3.8/logging/__init__.py", line 369, in getMessage
+    msg = msg % self.args
+
+end of logs as logs were trimmed

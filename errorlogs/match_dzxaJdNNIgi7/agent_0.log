@@ -1,0 +1,11 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+Traceback (most recent call last):
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 170, in agent
+    cell_data = get_rich_cells(resource_tiles)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 87, in get_rich_cells
+    resource = cell_data[cell]["resource_tiles"][resource_pos]
+TypeError: list indices must be integers or slices, not dict

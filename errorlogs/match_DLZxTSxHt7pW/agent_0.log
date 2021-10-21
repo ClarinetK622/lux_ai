@@ -1,0 +1,15 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+Traceback (most recent call last):
+  File "main.py", line 32, in <module>
+    actions = agent(observation, None)
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 203, in agent
+    get_best_cell(game_state.players[0].units[0], cell_data, ["wood"])
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 123, in get_best_cell
+    test(potential_cells.items())
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 120, in test
+    logging.info(tuple([item[0][resource] for resource in resources]))
+  File "/mnt/c/Users/justi/OneDrive/Code/Competitions/lux_ai/bot/agent.py", line 120, in <listcomp>
+    logging.info(tuple([item[0][resource] for resource in resources]))
+TypeError: tuple indices must be integers or slices, not str
