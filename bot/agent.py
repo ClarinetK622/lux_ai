@@ -119,10 +119,12 @@ def get_rich_cells(resource_tiles):
 def calculate_gathering(unit, cell, resources, amount_to_gather):
     global fuel_conversion
     global gather_rate
+    global gather_iteration
 
     unit_space = unit.get_cargo_space_left()
     space_used = 0
     gathered = 0
+    consumed = 0
     turns = 0
     loop = True
     while loop:
@@ -131,20 +133,28 @@ def calculate_gathering(unit, cell, resources, amount_to_gather):
         for resource in sorted_resources:
             if resource not in cell:
                 continue
-            if gathered < amount_to_gather:
-                if space_used <= unit_space:
-                    space_used += gather_rate[resource]
-                    gathered += cell.get(resource,{"tiles":0})["tiles"] * gather_rate[resource] * fuel_conversion[resource]
-                else:
+            if gathered < amount_to_gather and space_used <= unit_space:
+                if space_used + cell[resource]["tiles"] * gather_rate[resource] >= unit_space:
+                    gathered += math.ceil((unit_space-space_used)/cell[resource]["tiles"])*fuel_conversion[resource]
                     loop = False
                     break ## Not enough space.
+                else:
+                    space_used += cell[resource]["tiles"] * gather_rate[resource]
+                    gathered += cell[resource]["tiles"] * gather_rate[resource] * fuel_conversion[resource]
+                if gathered >= amount_to_gather:
+                    loop = False
+                    break ## Gathered enough or not enough space.
             else:
                 loop = False
-                break ## Gathered enough.
-    return {"turns":turns, "gathered":gathered}
+                break ## Gathered enough or not enough space.
+    return {"turns":turns, "gathered":gathered, "consumed":consumed}
 
 
 def get_best_cell(player, unit, cell_data, resources, dest = None, value = "resource", amount = "fill", strict = False):
+    # if not player.researched_uranium():
+    #     resources.drop("uranium")
+    # if not player.researched_coal():
+    #     resources.drop("coal")
     if dest is None:
         dest = unit.pos
     potential_cells = cell_data.copy()
@@ -173,6 +183,7 @@ def get_best_cell(player, unit, cell_data, resources, dest = None, value = "reso
             amount_to_gather = min(amount, unit_space * 40)  
     value_per_turn = dict()
     for cell in potential_cells:
+        gather_info = dict()
         if value == "fuel":
             gather_info = calculate_gathering(unit, potential_cells[cell], resources, amount_to_gather)
             if gather_info["gathered"] >= amount_to_gather or amount == "fill":
@@ -185,10 +196,10 @@ def get_best_cell(player, unit, cell_data, resources, dest = None, value = "reso
         distance_to = unit.pos.distance_to(Position(*cell))
         distance_from = Position(*cell).distance_to(dest)
         turns_of_gathering = math.ceil(amount_to_gather/gather_per_turn)
-        value_per_turn[cell] = amount_to_gather/((distance_to+distance_from+turns_of_gathering)*2)
-    value_per_turn = sorted(value_per_turn.items(), key = lambda x: x[1], reverse = True)
+        value_per_turn[cell] = (amount_to_gather/((distance_to+distance_from+turns_of_gathering)*2),{"to_gather":amount_to_gather,"distance_to":distance_to, "distance_from":distance_from, "turns_moving":distance_to+distance_from, "turns_of_gathering":turns_of_gathering, "can_gather":gather_info.get("gathered",0)})
+    value_per_turn = sorted(value_per_turn.items(), key = lambda x: x[1][0], reverse = True)
     logging.info(dict(value_per_turn))
-    return value_per_turn[0][0], value_per_turn[1][0]
+    return value_per_turn[0], value_per_turn[1]
 
 
 # def get_simple_path(pos):
@@ -200,7 +211,7 @@ def get_resource_tile_map(resource_positions):
     clusters = {}
     counter = 0
     # for resource_position in resource_positions:
-    logging.info(resource_positions)
+    #logging.info(resource_positions)
 
     shifts = [(1,0),(2,0),(-1,0),(-2,0),(0,1),(0,2),(0,-1),(0,-2),(1,1),(1,-1),(-1,1),(-1,-1)]
 
@@ -269,11 +280,20 @@ def agent(observation, configuration):
         if unit.get_cargo_space_left() > 0:
             resource_tiles, resource_positions = get_resource_tiles(width, height)
             cell_data = get_rich_cells(resource_tiles)
-            best_cell, best_cell_2 = get_best_cell(player, player.units[0], cell_data, ["wood", "coal", "uranium"], value = "fuel", amount = 3999)
-            actions.append(annotate.circle(*best_cell))
-            actions.append(annotate.circle(*best_cell_2))
+            best_cell, best_cell_2 = get_best_cell(player, player.units[0], cell_data, ["wood", "coal", "uranium"], value = "fuel", amount = "fill")
+            actions.append(annotate.circle(*best_cell[0]))
+            actions.append(annotate.circle(*best_cell_2[0]))
             actions.append(annotate.x(player.units[0].pos.x,player.units[0].pos.y))
-
+            best_coord = str(best_cell[0]).replace(","," ")
+            to_gather = best_cell[1][1]["to_gather"]
+            distance_to = best_cell[1][1]["distance_to"]
+            distance_from = best_cell[1][1]["distance_from"]
+            turns_moving = best_cell[1][1]["turns_moving"]
+            turns_gathering = best_cell[1][1]["turns_of_gathering"]
+            can_gather = best_cell[1][1].get("can_gather","N/A")
+            text = f"Best cell: {best_coord}. Value per turn: {best_cell[1][0]}. To gather: {to_gather}. Can gather: {can_gather}. Distance to: {distance_to} Distance from: {distance_from} Turns moving: {turns_moving} Turns gathering: {turns_gathering}"
+            actions.append(annotate.sidetext(text))
+            #logging.info(actions)
         if unit.is_worker() and unit.can_act():
             if unit.get_cargo_space_left() > 0:
 

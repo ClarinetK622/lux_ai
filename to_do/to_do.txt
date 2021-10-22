@@ -1,0 +1,3 @@
+Need to make inv account for lost fuel during the night so each turn of night, inv - 4 slots.
+Rank tiles using information about them in the time it takes to get there.
+Distinguish between resources gathered and resources consumed.
